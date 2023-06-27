@@ -1,0 +1,42 @@
+.main {
+  padding: 10px;
+}
+.image {
+  max-width: 250px;
+  min-width: 230px;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+.button_go_back {
+  border: 1px solid tomato;
+  border-radius: 5px;
+  padding: 2px 7px;
+  background-color: white;
+}
+.link_go_back {
+  text-decoration: none;
+  color: tomato;
+  font-size: 22px;
+}
+.card {
+  padding: 10px 0;
+  display: flex;
+  gap: 40px;
+}
+.title {
+  margin: 0;
+}
+.gengres {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.additionalInformation {
+  padding: 25px;
+  border-top: 1px solid #b0b8c1;
+  border-bottom: 1px solid #b0b8c1;
+}
