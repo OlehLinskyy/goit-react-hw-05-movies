@@ -10,7 +10,6 @@ const Reviews = lazy(() => import('./Reviews/Reviews'));
 
 export function App() {
   return (
-    <div>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
@@ -21,6 +20,5 @@ export function App() {
           </Route>
         </Route>
       </Routes>
-    </div>
   );
 }
